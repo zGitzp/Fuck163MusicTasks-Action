@@ -28,7 +28,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Download bin
         run: |
-          wget https://github.com/XiaoMengXinX/Fuck163MusicTasks/releases/download/v1.0.0/Fuck163MusicTasks_linux_amd64
+          wget https://github.com/XiaoMengXinX/Fuck163MusicTasks/releases/download/v2.1.8/Fuck163MusicTasks_linux_amd64
           chmod 777 ./Fuck163MusicTasks_linux_amd64
           
       # 请将 config.json 中所有内容填入 secrets 中的 CONFIG 环境变量
